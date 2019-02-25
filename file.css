@@ -1,0 +1,238 @@
+ .main
+{
+	background-image: url(../img/pic2.jpg);
+	background-size: cover;
+	height: 130vh;
+	position: relative;
+	
+   }
+.overlay
+{
+	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	background:  linear-gradient(to bottom right, rgba(255, 0, 102,0.4), rgba(255, 209, 26,0.2));
+  	top: 0;
+  	left: 0;
+}
+.navbar
+{
+	padding:26px 300px;
+}
+.navbar li
+{
+	font-size:30px;
+	color:white;
+
+}
+.navbar-nav>li>a {
+   
+    padding-bottom: 0px;
+    margin:0px 15px;
+}
+
+.navbar p
+{    
+
+	font-size:10px;
+}
+/*main-section*/
+.main-section
+{
+  width:40%;
+ position:absolute;
+ top:47%;
+ left:20%;
+ box-sizing: content-box;
+}
+.main-section h1
+{  
+font-size:65px;
+font-family:sans-serif;
+color:white;
+}
+.main-section b
+{
+font-weight:900;
+}
+.main-section p
+{
+	color:gray;
+	font-size:20px;
+	padding-right: 23%;
+}
+.back-image
+{
+	background-image: url(../img/fish2.jpg);
+	height:130vh;
+	background-size: cover;
+	position: relative;
+}
+.overlay2
+{
+	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	background: rgba(0,0,0,0.89);
+  	top: 0;
+  	left: 0;
+}
+.flex-container
+{
+	display:flex;
+	width:62%;
+	padding-top:15%;
+	padding-left: 10%;
+	justify-content: space-between;
+}
+
+.box-image1
+{
+	width:200px;
+}
+.box-image2
+{
+	width:200px;
+}
+.section2
+{
+	position:absolute;
+	top:59%;
+	left:15%;
+	width:15%;
+
+}
+.section2 img
+{
+	padding:20px;
+}
+.img-hover:hover
+{
+background-color: rgba(211,211,211,0.5);
+border-radius: 50%;
+width:200%;
+border: 1px solid white;
+}
+.sc
+{
+	position: absolute;
+	width:45%;
+	top:57%;
+	left:30%;
+ 	color:rgba(27, 247, 34,0.9);
+ 	box-sizing: border-box;
+
+}
+.sc h1
+{
+	font-size: 65px;
+}
+.back-image1 {
+position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	background: rgba(0,0,0,0.89);
+  	top: 0;
+  	left: 0;
+  }
+.image3
+{
+	background-image: url(../img/27086188-close-up-of-a-person-walking-in-the-rain.jpg);
+	height:800px;
+	background-size: cover;
+}
+.new-image
+{
+	padding-top: 250px;
+}
+.new-image h1
+{
+	font-weight: 700;
+	width:66%;
+}
+.new1
+{
+	
+  background-color: black;
+	font-size:55px;  
+	text-align: center;
+	margin:0px 200px;
+	color:white;
+}
+.new2
+{
+     margin-top:4px;
+     margin-right:188px;
+     margin-left: 200px;
+    background-color: black;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+
+}
+.new-icon
+{
+	display: flex;
+	text-align: center;
+	margin: 100px 300px;
+
+}
+.icon
+{
+margin: 25px;
+}
+.new-icon img
+{
+	width:100%;
+	height:100%;
+	
+}
+.footer
+{
+	background-color: #f44259;
+	height:50vh;
+	background-size: cover;
+}
+.footer-section
+{
+	text-align: center;
+	color:white;
+	padding:50px;
+}
+.footer1
+{
+	margin:0px;
+	font-size: 15px;
+}
+.footer2
+{
+	margin:0px;
+}
+
+/*-------Responsive css--------*/
+@media screen and (max-width: 767px){
+	.sc h1{
+		font-size: 65px;
+	}
+}
+
+
+h1.ab {
+        font-size: 58px;
+    margin-left: 81px;
+    margin-top: 850px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
